@@ -1,23 +1,38 @@
-# 📰 Fake News Lab – Phase 1: UI with HTML & CSS
+# 🧠 Fake News Lab – Multi-Phase Portfolio Project
 
-This is the **first phase** of the Fake News Lab project.  
-The goal is to design a clean and modern landing page using pure HTML and CSS.
+This is a full-stack educational project demonstrating how to build a **fake news detection system**, step by step — from design to machine learning.
 
-## 🔍 Overview
+Each phase highlights a different technology I’ve worked with, and together they form a complete journey from frontend to backend to AI.
 
-We are building a fake news detection web app, step by step.  
-In this phase, we created a beautiful dark-themed user interface with a bold title and elegant layout.
-
-## ✨ Features
-
-- Dark theme background
-- Modern layout with centered content
-- Google Fonts (Figtree)
-- Clean and minimal design
-
-## 🖥️ Live Preview (Optional)
-
-You can [open the `index.html`](./index.html) directly in your browser to see the page.
+---
 
 ## 📁 Project Structure
+
+| Phase | Name | Technologies | Description |
+|-------|------|--------------|-------------|
+| 1️⃣ | [phase-1-css-ui](./phase-1-css-ui) | HTML, CSS | User interface for entering a news article |
+| 2️⃣ | [phase-2-php-form](./phase-2-php-form) | PHP | Backend form handling with server-side input |
+| 3️⃣ | [phase-3-html-js](./phase-3-html-js) | JavaScript | Interactive UX: live character counter, form logic |
+| 4️⃣ | [phase-4-ml-model](./phase-4-ml-model) | Python, Streamlit, ML | Fake news classification using a trained ML model |
+
+---
+
+## 🎯 Goal
+
+To showcase practical, modular web development and data science skills in one unified concept:
+- Clean design & UX
+- Backend scripting
+- Interactive JavaScript
+- Machine Learning & Streamlit integration
+
+---
+
+## 🚀 How to Run Phase 4 (ML App)
+
+Make sure you have Python 3 installed. Then:
+
+```bash
+cd phase-4-ml-model
+pip install -r requirements.txt
+streamlit run app.py
 
