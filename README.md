@@ -1,18 +1,23 @@
-# Phase 1: CSS UI
+# 📰 Fake News Lab – Phase 1: UI with HTML & CSS
 
-🎯 This is the first step of the Fake News Lab project.  
-We are building a beautiful and clean landing page using pure HTML & CSS.
+This is the **first phase** of the Fake News Lab project.  
+The goal is to design a clean and modern landing page using pure HTML and CSS.
 
-## Preview
+## 🔍 Overview
 
-![Preview](preview.jpg)
+We are building a fake news detection web app, step by step.  
+In this phase, we created a beautiful dark-themed user interface with a bold title and elegant layout.
 
-## Features
+## ✨ Features
 
-- Dark theme
-- Google Fonts
-- Modern card layout
+- Dark theme background
+- Modern layout with centered content
+- Google Fonts (Figtree)
+- Clean and minimal design
 
-## How to Run
+## 🖥️ Live Preview (Optional)
 
-Just open `index.html` in your browser.
+You can [open the `index.html`](./index.html) directly in your browser to see the page.
+
+## 📁 Project Structure
+
