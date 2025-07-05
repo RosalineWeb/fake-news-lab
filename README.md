@@ -36,16 +36,21 @@ cd phase-4-ml-model
 pip install -r requirements.txt
 streamlit run app.py
 
-## 🎯 Purpose
 
-This lab was created as a creative space to experiment with HTML & CSS in a flexible and stress-free way.  
-It’s all about:
+🎯 Purpose
 
-- 🧱 Practicing **semantic HTML** structure  
-- 🎨 Exploring **responsive layouts** with Flexbox & Grid  
-- 📰 Re-creating **content-heavy designs** inspired by news/media sites  
-- ✍️ Playing with **typography, spacing, and visual hierarchy**  
-- 🧪 Trying ideas quickly without overthinking — just building and learning
+Fake News Lab is designed as a modular learning project that connects frontend, backend, and machine learning into one coherent concept.
+The purpose of this lab is to:
 
-This is not a production-ready project — it’s a digital sketchbook for layout exploration and growth ✨
+    🔍 Simulate the real-world workflow of building a web-based product
+
+    🧠 Bridge the gap between classic web development and AI-driven applications
+
+    💡 Show practical skills through step-by-step, focused phases
+
+    🧪 Encourage exploration through isolated, testable components
+
+    🎯 Combine clean UX/UI with functional backend logic and AI insight
+
+Whether it’s styling forms, handling PHP requests, adding dynamic JavaScript interactions, or deploying an ML model with Streamlit — this project ties it all together.
 
