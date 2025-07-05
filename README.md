@@ -36,3 +36,12 @@ cd phase-4-ml-model
 pip install -r requirements.txt
 streamlit run app.py
 
+## Purpose
+
+This repository is created as a learning lab to explore and practice front-end techniques using HTML and CSS.  
+The goal is to improve my understanding of:
+
+- Semantic HTML
+- Responsive layouts (Flexbox, Grid)
+- Typography and spacing
+- Visual structure for media-heavy content
