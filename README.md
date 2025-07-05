@@ -25,7 +25,7 @@ To showcase practical, modular web development and data science skills in one un
 - Interactive JavaScript
 - Machine Learning & Streamlit integration
 
-------------------------------------------------
+--------------------------------------------
 
 ## 🚀 How to Run Phase 4 (ML App)
 
