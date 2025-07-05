@@ -1,38 +1,65 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Fake News Lab</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #fdfbfb, #ebedee);
       padding: 2rem;
+      color: #333;
     }
     h1 {
       color: #2c3e50;
+      text-align: center;
     }
-    ul {
+    .phase {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      border-radius: 10px;
       font-size: 1.2rem;
-      line-height: 2;
+      transition: transform 0.3s;
     }
+    .phase:hover {
+      transform: scale(1.03);
+    }
+    .p1 { background-color: #ffe6e6; }
+    .p2 { background-color: #e6f2ff; }
+    .p3 { background-color: #e6ffe6; }
+    .p4 { background-color: #fff0e6; }
     a {
-      color: #007acc;
       text-decoration: none;
+      color: #1a1a1a;
+      display: block;
     }
-    a:hover {
-      text-decoration: underline;
+    .emoji {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
     }
   </style>
 </head>
 <body>
-  <h1>آزمایشگاه خبر جعلی – Fake News Lab</h1>
-  <p>لینک به فازهای مختلف پروژه:</p>
-  <ul>
-    <li><a href="phase-1-css-ui/index.html">فاز ۱: رابط کاربری (HTML & CSS)</a></li>
-    <li><a href="phase-2-php-form/index.html">فاز ۲: فرم PHP</a></li>
-    <li><a href="phase-3-html-js/index.html">فاز ۳: جاوااسکریپت</a></li>
-    <li><a href="phase-4-ml-model">فاز ۴: مدل یادگیری ماشین (Streamlit)</a></li>
-  </ul>
+  <h1>🧠 Fake News Lab</h1>
+  <div class="phase p1">
+    <a href="phase-1-css-ui/index.html">
+      <span class="emoji">🎨</span> Phase 1: UI Design (HTML & CSS)
+    </a>
+  </div>
+  <div class="phase p2">
+    <a href="phase-2-php-form/index.html">
+      <span class="emoji">💾</span> Phase 2: PHP Form Handling
+    </a>
+  </div>
+  <div class="phase p3">
+    <a href="phase-3-html-js/index.html">
+      <span class="emoji">⚙️</span> Phase 3: JavaScript Interaction
+    </a>
+  </div>
+  <div class="phase p4">
+    <a href="phase-4-ml-model">
+      <span class="emoji">🤖</span> Phase 4: ML Fake News Detection
+    </a>
+  </div>
 </body>
 </html>
